@@ -1,0 +1,39 @@
+---
+title: "dnc-webtest"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+As a proof-of-concept, I'm going to test a few different capabilities of the Quarto website. The main things I'm looking for:
+
+-   Ability to nicely organize pages
+
+-   Ability to show static R visualizations
+
+-   Ability to have interactive R visualizations
+
+-   Ability to have interactive leaflet maps
+
+-   Ability to embed visualizations or dashboards from other ecosystems (e.g. PowerBI, Tableau)
+
+-   Ability to achieve semi-complex layouts, with possibly native dashboard elements (perhaps using Shiny?)
+
+```{r}
+#| include: false
+library(tidyverse)
+library(leaflet)
+```
+
+#### Static R Visualizations
+
+Here's an example plot, using the `mpg` dataset:
+
+```{r}
+#| echo: false
+ggplot(mpg, aes(x = displ, y = cty)) +
+  geom_point() +
+  geom_smooth(method = "loess", formula = y ~ x) +
+  theme_minimal()
+```

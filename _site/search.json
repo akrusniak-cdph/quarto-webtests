@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "dnc-webtest",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nAs a proof-of-concept, I’m going to test a few different capabilities of the Quarto website. The main things I’m looking for:\n\nAbility to nicely organize pages\nAbility to show static R visualizations\nAbility to have interactive R visualizations\nAbility to have interactive leaflet maps\nAbility to embed visualizations or dashboards from other ecosystems (e.g. PowerBI, Tableau)\nAbility to achieve semi-complex layouts, with possibly native dashboard elements (perhaps using Shiny?)\n\n\nStatic R Visualizations\nHere’s an example plot, using the mpg dataset:"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  }
+]
